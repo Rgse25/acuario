@@ -1,0 +1,139 @@
+body
+{
+    background: solid rgb(7, 8, 56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1400px;
+    margin: 1px;
+    border: 1px solid rgb(5, 9, 28);
+}
+header{
+    background: rgb(5, 9, 28);
+    height: 90px;
+    width: 100%;
+    margin:0px;
+    text-align:left;
+    line-height: 70px;
+    color: white;
+    border-bottom: 5px;
+
+}
+
+nav lu li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav{
+    background: rgb(5, 9, 28);
+    height: 40px;
+    border-bottom: 1px solid white;
+    
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+    width: 10cm;
+	padding: 60px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position:center centers
+
+}
+#content{
+    float: left;
+    width:90%;
+    min-height: 600px;
+    background: whitesmoke;
+    padding-top: 80px;
+}
+
+footer{
+    background:rgb(5, 9, 28);
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+input[type=text],select,textarea{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+.grid-container{
+    background:white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas:
+    'left left right right right'
+}
+
+.right{
+    padding: 60px;
+    height: 200px;
+    width: 800px;
+}
+.left{
+    padding: 0px;
+    height:200px;
+    width: 500px;
+}
+
+.left{
+    grid-area: left;
+}
+.right{
+    grid-area: right;
+}
+
+.button{
+    background-color: rgb(44, 68, 141);
+    border-radius: 16px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.leyenda{
+    /*color: black;*/
+    border-radius: 50;
+    font-size: larger;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.article:first-child{
+    border-top: 1px solid black;
+
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 20px;
+  }
+
+.grid-item{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
